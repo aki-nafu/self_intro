@@ -132,6 +132,12 @@ body {
   padding: 0px;
 }
 
+.link_btn:hover {
+  background-color: #f1f1f1;
+  border-color: #a7a7a7;
+  color: #fff;
+}
+
 .link_btn_sns {
   display: inline-block;
   width: 98px;

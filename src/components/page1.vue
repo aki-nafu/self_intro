@@ -1,18 +1,24 @@
 <template>
   <div class="top_page">
-    <h1>Profile</h1>
-    <div class="self_intro">
+    <img
+      src="./image/F59AD826-6FC7-4806-8EAA-48E11FDC2407.jpg"
+      alt="写真"
+      class="self_intro_pict"
+    />
+    <h1>Akimi Funakoshi</h1>
+    <div class="self_intro1">
       <p class="self_introP">
-        こんにちは。
-        <br />
-        神奈川県立保健福祉大学にて社会福祉を学びながら、Web開発をしている学生です。
+        年齢：22歳
+        <br />居住地：神奈川県 <br />大学：神奈川県立保健福祉大学社会福祉学科
+        <br />使用言語：Python, JavaScript <br />使用フレームワーク:Django,
+        Vue.js
       </p>
     </div>
-    <h1>Profile</h1>
-    <div class="self_intro">
+    <div class="self_intro2">
       <p class="self_introP">
-        Web開発ができるようにDjango。機械学習、データ分析ができるように生のpythonも身に付けております。
-        大学では社会福祉を学んでおります。障害福祉分野は社会課題が山積みであり、そんな社会課題を解決するにはITを活用していく必要があると感じています。
+        神奈川県立保健福祉大学3年の船越暁海と申します。
+        <br />現在は、webエンジニアに絞り就職活動中です。
+        <br />大学で社会福祉について学んでいく中で、社会課題を解決する手段としてITが最も有効だと感じ、2020年2月頃から学習を始めました。
       </p>
     </div>
   </div>
@@ -33,7 +39,7 @@
   text-align: center;
 }
 
-.self_intro {
+.self_intro1 {
   padding: 20px 0px;
   width: 100%;
   border-radius: 5px;
@@ -43,7 +49,24 @@
   box-shadow: 2px 2px 24px #cecece, -2px -2px 24px #fff;
 }
 
+.self_intro2 {
+  padding: 20px 0px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  color: #424242;
+  margin: 0px;
+  box-shadow: 2px 2px 24px #cecece, -2px -2px 24px #fff;
+  text-align: left;
+  margin-top: 3%;
+}
+
 .self_introP {
   margin: 0px 70px;
+}
+
+.self_intro_pict {
+  width: 20%;
+  border-radius: 50%;
 }
 </style>
