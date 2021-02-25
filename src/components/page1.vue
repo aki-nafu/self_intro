@@ -10,14 +10,14 @@
       <p class="self_introP">
         年齢：22歳
         <br />居住地：神奈川県 <br />大学：神奈川県立保健福祉大学社会福祉学科
-        <br />使用言語：Python, JavaScript <br />使用フレームワーク:Django,
+        <br />使える言語：Python, JavaScript <br />使えるフレームワーク：Django,
         Vue.js
       </p>
     </div>
     <div class="self_intro2">
       <p class="self_introP">
         神奈川県立保健福祉大学3年の船越暁海と申します。
-        <br />現在は、webエンジニアに絞り就職活動中です。
+        <br />現在は、web系エンジニアに絞り就職活動中です。
         <br />大学で社会福祉について学んでいく中で、社会課題を解決する手段としてITが最も有効だと感じ、2020年2月頃から学習を始めました。
       </p>
     </div>

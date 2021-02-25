@@ -14,13 +14,29 @@
     </div>
     <div class="google_agr">
       <h1>Google集計App</h1>
-      <div class="port_intro">
-        <img src="./image/google_agr.png" alt="写真" class="port_intro_pict" />
-        <p class="port_introP">
-          Googleフォームの集計自動化アプリです。
-          <br />pandasとnumpyのライブラリを用いており、CSVファイルを読み込ませると2次元集計表やグラフを出力します。
-        </p>
-      </div>
+      <a href="https://qiita.com/akimifunakoshi/items/92f03808f29ee3ce7393">
+        <div class="port_intro">
+          <img src="./image/google_agr.png" alt="写真" class="port_intro_pict" />
+          <p class="port_introP">
+            Googleフォームの集計自動化アプリです。
+            <br />Googleフォームのアンケートでの結果のcsvを自動で集計、解析するアプリです。
+          </p>
+        </div>
+      </a>
+    </div>
+    <div class="swe_project">
+      <h1>社会福祉士国家試験対策アプリ(開発中)</h1>
+      <a href="https://github.com/konosuke-tamatsu-team/swe_project">
+        <div class="port_intro">
+          <img src="./image/swe_project.png" alt="写真" class="port_intro_pict" />
+          <p class="port_introP">
+            1問1答形式で社会福祉士国家試験の過去問に取り組むことができる、試験対策アプリです。
+             <br />開発途中のため、リンク先がGitHubリポジトリになっております。
+            <br />バックエンドにはDjango、フロントエンドにはVue.jsを用いております。
+            <br />通常のランダム出題機能に加えて間違えた問題に再度取り組むことができる機能や他のアカウントとの対戦機能を実装予定です。
+          </p>
+        </div>
+      </a>
     </div>
   </div>
 </template>
@@ -66,5 +82,9 @@
 
 .google_agr {
   margin-top: 40px;
+}
+
+.swe_project{
+   margin-top: 40px;
 }
 </style>
